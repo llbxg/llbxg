@@ -1,16 +1,21 @@
-### Hi there 👋
+<p align="center">
+  <img src="https://github.com/llbxg/llbxg/blob/master/fig/kosh.jpg?raw=true" width="450px" alt="kosh">
+</p>
 
-<!--
-**llbxg/llbxg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  👻 Link - 
+  <a href="https://wwww.kosh.dev">my page</a> - 
+  <a href="https://twitter.com/llbxg">twitter</a>
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+　🐍 python - 
+  <a href="https://github.com/llbxg/test-tube">test-tube</a> - 
+  <a href="https://github.com/llbxg/saba-server">saba-server</a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+　⚡ Electron - 
+  <a href="https://github.com/llbxg/fish-in-txt">fish-in-txt</a> - 
+  <a href="https://github.com/llbxg/hakos">hakos</a>
+</p>
