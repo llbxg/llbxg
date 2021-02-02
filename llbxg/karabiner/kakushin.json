@@ -29,6 +29,35 @@
         },
 
         {
+            "description": "Left option + Right shift to delete",
+            "manipulators": [
+            {
+                "from": {  "key_code": "right_shift", "modifiers": { "mandatory": [ "left_option"], "optional": ["any"]}},
+                "to"  : [{ "key_code": "delete_or_backspace"}],
+                "type": "basic"
+            }
+            ]
+        },
+
+        {
+            "description": "Option + Space to kana<->eisu",
+            "manipulators": [
+                {
+                    "conditions": [{"input_sources": [{"language": "ja"}],"type": "input_source_if"}],
+                    "from": {  "key_code": "spacebar", "modifiers": { "mandatory": ["option"], "optional": ["any"]}},
+                    "to"  : [{ "key_code": "japanese_eisuu"}],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [{"input_sources": [{"language": "en"}],"type": "input_source_if"}],
+                    "from": {  "key_code": "spacebar", "modifiers": { "mandatory": ["option"], "optional": ["any"]}},
+                    "to"  : [{ "key_code": "japanese_kana"}],
+                    "type": "basic"
+                }
+                ]
+        },
+
+        {
             "description": "Left option + caps_lock~l to 1,2,3~9,0",
             "manipulators": [
             {
@@ -125,6 +154,5 @@
             }
             ]
         }
-
     ]
 }
