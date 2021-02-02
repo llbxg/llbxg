@@ -4,6 +4,6 @@
 
 <p align="center">
   👻 Link - 
-  <a href="https://wwww.kosh.dev">my page</a> - 
+  <a href="https://www.kosh.dev">my page</a> - 
   <a href="https://twitter.com/llbxg">twitter</a>
 </p>
