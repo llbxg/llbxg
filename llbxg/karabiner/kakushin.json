@@ -153,6 +153,28 @@
                 "type": "basic"
             }
             ]
+        },
+
+        {
+            "description": "Simple modifications",
+            "manipulators": [
+            {
+                "from": {  "key_code": "left_command", "modifiers": {"optional": ["any"]}},
+                "to"  : [{ "key_code": "left_option"}],
+                "type": "basic"
+            },
+            {
+                "from": {  "key_code": "left_option", "modifiers": {"optional": ["any"]}},
+                "to"  : [{ "key_code": "left_command"}],
+                "type": "basic"
+            },
+            {
+                "from": {  "key_code": "caps_lock", "modifiers": {"optional": ["any"]}},
+                "to"  : [{ "key_code": "left_command"}],
+                "type": "basic"
+            }
+
+            ]
         }
     ]
 }
